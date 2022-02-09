@@ -6,10 +6,50 @@ body {
   height: 100vh;
   margin: 0;
   background: #ffccef;
+  flex-direction: column;
   font-family: "Gochi Hand", cursive;
 }
+
+#start {
+  padding: 0.8rem 4rem;
+  border: none;
+  font-size: 1.5rem;
+  background: #ff0076;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s all;
+  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.103);
+  border-radius: 8px;
+  cursor: pointer;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+
+#start:hover {
+  transform: scale(1.05) translateY(-2px);
+  -webkit-transform: scale(1.05) translateY(-2px);
+  -moz-transform: scale(1.05) translateY(-2px);
+  -ms-transform: scale(1.05) translateY(-2px);
+  -o-transform: scale(1.05) translateY(-2px);
+}
+
+#start:active {
+  transform: scale(1) translateY(2px);
+  -webkit-transform: scale(1) translateY(2px);
+  -moz-transform: scale(1) translateY(2px);
+  -ms-transform: scale(1) translateY(2px);
+  -o-transform: scale(1) translateY(2px);
+}
+
 .one-circle-pig {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -232,27 +272,27 @@ body {
 }
 
 .d14 {
-  animation-delay: 13s !important;
+  animation-delay: 12.9s !important;
 }
 
 .d15 {
-  animation-delay: 13.5s !important;
+  animation-delay: 13.2s !important;
 }
 
 .d16 {
-  animation-delay: 14s !important;
+  animation-delay: 13.5s !important;
 }
 
 .d17 {
-  animation-delay: 14.5s !important;
+  animation-delay: 13.8s !important;
 }
 
 .d18 {
-  animation-delay: 15s !important;
+  animation-delay: 14.2s !important;
 }
 
 .d19 {
-  animation-delay: 16s !important;
+  animation-delay: 14.6s !important;
 }
 
 @keyframes animate-border {
